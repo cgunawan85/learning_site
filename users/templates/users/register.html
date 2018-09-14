@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Well hello there!{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <h1>Register</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div>
+            <button class="btn btn-outline-info" type="submit">Sign Up</button>
+        </div>
+        <div>Already have an account? <a href="{% url 'login' %}">Login here</a></div>
+    </form>
+    </div>
+{% endblock %}
