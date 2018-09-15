@@ -2,7 +2,7 @@ from django.urls import reverse
 from django.db import models
 from django.contrib.auth.models import User
 
-# This is just a test
+# This is another test
 
 STATUS_CHOICES = (
     ('i', 'In Progress'),
