@@ -2,7 +2,7 @@ from django.urls import reverse
 from django.db import models
 from django.contrib.auth.models import User
 
-# Testing VCS
+# This is just a test
 
 STATUS_CHOICES = (
     ('i', 'In Progress'),
