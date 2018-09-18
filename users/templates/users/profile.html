@@ -3,5 +3,7 @@
 {% block title %}Profile{% endblock %}
 
 {% block content %}
+    <img src="{{ user.profile.image.url }}">
     <h1>{{ user.username }}</h1>
+    <h2>{{ user.email }}</h2>
 {% endblock %}
